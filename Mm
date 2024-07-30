@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUNKEDYAD's Art</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e8f5e9; /* Light sage green background */
+            color: #333;
+        }
+        header {
+            background-color: #004c8c; /* Dark blue header */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #003366; /* Darker blue for navigation */
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #003366; /* Dark blue for headings */
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .oc-section, .comic-section {
+            border-top: 2px solid #003366; /* Dark blue border */
+            padding-top: 20px;
+        }
+        .oc-section img, .comic-section img {
+            max-width: 200px;
+            margin: 10px;
+        }
+        .oc-section h3, .comic-section h3 {
+            color: #ffcc00; /* Yellow for subheadings */
+        }
+        p {
+            color: #5c6b73; /* Sage green for text */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PUNKEDYAD's Art</h1>
+        <p>Drawing and designing characters</p>
+    </header>
+    <nav>
+        <a href="#artwork">Artwork</a>
+        <a href="#comics">Comics</a>
+        <a href="#ocs">OCs</a>
+    </nav>
+    <div class="container">
+        <section id="artwork">
+            <h2>Artwork</h2>
+            <div class="gallery">
+                <!-- Insert images of your artwork here -->
+                <img src="art1.jpg" alt="Artwork 1">
+                <img src="art2.jpg" alt="Artwork 2">
+                <img src="art3.jpg" alt="Artwork 3">
+            </div>
+        </section>
+        <section id="comics">
+            <h2>Comics</h2>
+            <div class="comic-section">
+                <h3>Story 1</h3>
+                <div class="gallery">
+                    <!-- Insert images of your comic pages here -->
+                    <img src="comic1_page1.jpg" alt="Comic 1 Page 1">
+                    <img src="comic1_page2.jpg" alt="Comic 1 Page 2">
+                </div>
+            </div>
+            <div class="comic-section">
+                <h3>Story 2</h3>
+                <div class="gallery">
+                    <!-- Insert images of your comic pages here -->
+                    <img src="comic2_page1.jpg" alt="Comic 2 Page 1">
+                    <img src="comic2_page2.jpg" alt="Comic 2 Page 2">
+                </div>
+            </div>
+        </section>
+        <section id="ocs">
+            <h2>OCs</h2>
+            <div class="oc-section">
+                <h3>OC 1</h3>
+                <p>Description of OC 1</p>
+                <div class="gallery">
+                    <!-- Insert images of OC 1 here -->
+                    <img src="oc1_1.jpg" alt="OC 1 Image 1">
+                    <img src="oc1_2.jpg" alt="OC 1 Image 2">
+                </div>
+            </div>
+            <div class="oc-section">
+                <h3>OC 2</h3>
+                <p>Description of OC 2</p>
+                <div class="gallery">
+                    <!-- Insert images of OC 2 here -->
+                    <img src="oc2_1.jpg" alt="OC 2 Image 1">
+                    <img src="oc2_2.jpg" alt="OC 2 Image 2">
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
